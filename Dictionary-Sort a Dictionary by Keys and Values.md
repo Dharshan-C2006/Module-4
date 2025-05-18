@@ -30,9 +30,27 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-Add Code here
+```python
+def dictionairy(): 
+# Declaring hash function      
+key_value ={}    
+# Initializing the value 
+key_value[2] = 56       
+key_value[1] = 2 
+key_value[5] = 12 
+key_value[4] = 24 
+key_value[6] = 18      
+key_value[3] = 323 
+print ("Keys and Values sorted", 
+"in alphabetical order by the value") 
+print(sorted(key_value.items(), key = lambda kv:(kv[1], kv[0])))
+```
 
 ## Sample Output
 
+![444171577-9bdf6636-9a56-4106-991e-7688a04145a5](https://github.com/user-attachments/assets/d3c00450-fdf8-433b-a187-ce425b895e53)
+
+
 ## Result
 
+Thus,the program has been executed successfully.
